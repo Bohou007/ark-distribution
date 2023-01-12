@@ -1,0 +1,4 @@
+23-12-2022 02:18:20 - ERROR - 7.5.9 - 106,6 Mo/256 Mo - Paul Elie > Missing block.php file in /Applications/MAMP/htdocs/ark-distribution/wp-content/plugins/newsletter/emails/blocks (1) - 
+23-12-2022 02:18:20 - ERROR - 7.5.9 - 106,6 Mo/256 Mo - Paul Elie > Missing block.php file in /Applications/MAMP/htdocs/ark-distribution/wp-content/plugins/newsletter/emails (1) - 
+23-12-2022 02:18:21 - ERROR - 7.5.9 - 92,0 Mo/256 Mo - Paul Elie > Missing block.php file in /Applications/MAMP/htdocs/ark-distribution/wp-content/plugins/newsletter/emails/blocks (1) - 
+23-12-2022 02:18:21 - ERROR - 7.5.9 - 92,0 Mo/256 Mo - Paul Elie > Missing block.php file in /Applications/MAMP/htdocs/ark-distribution/wp-content/plugins/newsletter/emails (1) - 

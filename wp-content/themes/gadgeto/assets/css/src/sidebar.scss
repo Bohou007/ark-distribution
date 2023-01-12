@@ -1,0 +1,48 @@
+@import "_custom-properties.scss";
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+
+.primary-sidebar {
+	padding-block-start: 1.5rem;
+	padding-block-end: 1.5rem;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	.wc-block-product-categories {
+		margin-block-end: 0;
+	}
+}
+@media screen and (min-width: $tablet-plus-query) {
+
+	.primary-sidebar {
+		padding-inline-start: 0;
+		padding-inline-end: 0;
+	}
+
+}
+
+@media screen and (min-width: $laptop-plus-query) {
+
+	.primary-sidebar {
+		padding: 0;
+		margin: 0;
+	}
+	.has-sticky-sidebar #wrapper, .has-sticky-sidebar-widget #wrapper {
+		overflow:visible;
+	}
+	.has-sticky-sidebar .sidebar-inner-wrap, .has-sticky-sidebar-widget .primary-sidebar .widget:last-child {
+		position:sticky;
+		top:20px;
+		overflow-y: auto;
+	}
+	.has-sticky-sidebar-widget .sidebar-inner-wrap {
+		height: 100%;
+	}
+}
+@media screen and (max-width: $tablet-minus-query) {
+
+	.has-sticky-sidebar .sidebar-inner-wrap, .has-sticky-sidebar-widget .primary-sidebar .widget:last-child {
+		max-height: none !important;
+		overflow-y: auto;
+	}
+}
